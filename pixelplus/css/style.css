@@ -1,0 +1,475 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	color: #8f8f8f;
+	font: 14px PT Sans, sans-serif;
+	background-color: #ffffff;
+	/* width: 1400px; */
+	line-height: 1.57;
+	letter-spacing: 0.35px;
+	/* overflow: hidden; */
+	margin: 0;
+  }
+	header {
+		width: 100%;
+		height: 230px;
+		background: #dcdcdc;
+	} 
+	.container {
+		max-width: 1000px;
+		margin:  0 auto;
+		padding: 0 5px;
+	}
+	
+	.header-inner img {
+	padding-top: 65px;
+	
+	}
+.phone1 {
+	float: right;
+	width: 326px;
+	padding-top: 45px;
+}
+.phone{	
+	font-family: OpenSans;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: 1px;
+}
+.communication {
+	float: right;
+	font-family: PTSans;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.92;
+  letter-spacing: 0.6px;
+	color: #767676;
+	text-decoration-style: dashed;
+	} 
+
+	
+form {
+	background-color: rgb(255, 255, 255);
+	width: 466px;
+	height: 578px;
+	margin: 100px auto;
+	}
+	form ul {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	form li {
+			list-style-type: none;
+			margin: 10px 50px;
+		}
+	form label, form input, form textarea {
+			width: 100%;
+			font-size: 14px;
+			font-family: "PTSans";
+			color: rgb(83, 83, 83);
+		}
+	form li label {
+		display: block;
+		text-align: center;
+	}
+	form textarea {
+		height: 140px;
+	}
+form h1 {
+	font-size: 24px;
+	color: rgb(83, 83, 83);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	padding-top: 30px;
+}
+input[type=submit] {
+	display: block;
+	font-size: 22px;
+	font-family: "PTSans";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	background: #777777;
+	height: 35px;
+	width: 160px;
+	margin:  10px auto;
+	cursor: pointer;
+}
+
+	nav {
+		width: 100%;
+		height: 80px;
+		background: #777777;
+		margin: 0;
+	}
+	nav a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: PTSans;
+		font-size: 30px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: 0.75px;
+		text-align: center;
+		cursor: pointer;
+	}
+	nav ul {
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	nav li {
+		list-style-position: inside;
+		font: 14px 'Oswald', sans-serif;
+		padding: 10px;
+		border-left:1px solid #ffffff ;
+	}
+	nav li:first-child {
+		border: none; 
+		margin-left: 0px;
+	}
+	.top-menu li {
+		display: inline-block;
+		padding: 0 20px;
+		margin-top: 26px;
+	}
+	.top-menu a.active {
+		border-bottom: 2px solid #fff;
+	}
+	
+	/* .slider {	
+	}   */
+
+	.breadcrumbs {
+		display: inline-block;
+		width: 100%;
+
+	}
+	.breadcrumbs a {
+		display: block;
+    position: relative;
+    float: left;
+		font-size: 14px;
+		font-family: "PTSans";
+		color: rgb(118, 118, 118);
+		text-decoration: none;
+		line-height: 1.286;
+		text-align: left;
+		margin-right: 5px;
+	}
+	.underline {
+		border-bottom: 1px solid rgb(118, 118, 118);
+	}
+	
+aside {
+	float: left;
+	width: 210px;
+	height: 1000px;
+}
+.aside-menu {
+	margin-left: 0; 
+	padding-left: 0;
+}
+.aside-menu li {
+	font-size: 18px;
+	font-family: "PTSans";
+	line-height: 1.667;
+	text-align: left;
+	list-style-type: none;		
+}
+.aside-menu a {
+	text-decoration: none;
+	color: rgb(118, 118, 118);
+}
+.aside-menu-nested {
+	margin-left: 15px;
+	padding-left: 15px;
+}
+.aside-menu-nested li{
+	font-size: 14px;
+	line-height: 1.4;
+	list-style-type: disc;	
+}	
+.aside-menu .active-grey, .aside-menu .active-black {
+	text-decoration: underline;
+}
+.aside-menu .active-black {
+	color: #000;
+}
+
+aside > img {
+	display: block;
+	margin: 80px auto 0;
+}
+aside >  p {
+	font-size: 30px;
+	font-family: "PTSans";
+	color: rgb(68, 68, 68);
+	font-weight: bold;
+	line-height: 0.833;
+	text-align: center;
+}
+
+section {
+	margin-left: 210px;
+	padding-left: 5px;
+}
+
+figure {
+	float: left;
+	width: 240px;
+	height: 385px;
+	background: #dcdcdc;
+	margin: 0 5px 11px;
+	}
+
+figure img {
+	margin: 15px 20px;
+}
+figcaption {
+	margin: 0 20px;
+}
+figcaption .top {
+	font-size: 18px;
+	font-family: "PTSans";
+	color: rgb(118, 118, 118);
+	line-height: 1;
+	text-align: left;
+	margin-bottom: 30px;
+	}
+figcaption .left {
+	float: left;
+	font-size: 28px;
+	font-family: "PTSans";
+	color: rgb(68, 68, 68);
+	font-weight: bold;
+	line-height: 0.643;
+	text-align: left;
+	margin-top: 40px;
+}
+figcaption .right {
+	float: right;
+	margin: 25px 25px 0;
+	width: 28px;
+	height: 21px;
+}
+	
+.page_number {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+	padding-bottom: 65px;
+	border-bottom: 0.5px solid #777777;
+}
+.page_number a {
+	font-size: 14px;
+	color: rgb(118, 118, 118);
+	line-height: 1.571;
+	text-decoration: none;
+	margin: 7px;
+	}
+	.page_number a.pnb {
+	font-size: 18px;
+	color: rgb(26, 3, 3);
+	}
+
+
+	.text {
+		width: 100%;
+		height: 550px;
+		margin: 25px auto 200px;
+	}
+	.text p {
+		float: left;
+		width: 48%;
+		margin: 25px auto;
+		line-height: 1.571;
+		text-align: left;
+	}
+	.text p+p {
+		float: right;
+	}
+	
+	footer {
+		width: 100%;
+		height: 215px;
+		background: #777777;
+		padding-top: 25px;
+	}
+	#copyright {
+		float: left;
+		width: 200px;
+	}
+	#copyright p, #copyright a {
+		font-size: 14px;
+		font-family: "PTSans";
+		color: rgb(255, 255, 255);
+		line-height: 1.571;
+		text-align: left;
+	}
+	#copyright a {
+		text-decoration: none;
+	}
+
+	#menu {
+		float: left;
+		width: 119px;
+		margin-left: 150px;
+	}
+	#menu ul {
+		padding: 0;
+
+	}
+	#menu a {
+				font-size: 14px;
+			font-family: "PTSans";
+			color: rgb(255, 255, 255);
+			text-decoration: underline;
+			line-height: 1.857;
+			text-align: left;
+	}
+#logo {
+		float: right;
+		}
+
+		
+				
+@media screen and (max-width: 1200px){}
+				
+@media screen and (max-width: 980px){
+	.container {
+		margin: 0 20px;
+	}				
+	nav a {
+		font-size: 26px;
+	}
+  .top-menu li {
+		padding: 0 0.5%;
+	}
+	section {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+}
+@media screen and (max-width: 768px){
+	header {
+		height: 100%;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+	}
+				
+.header-inner img {
+	padding-top: 45px;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	
+}
+.phone1 {
+	float: none;
+	width: 70%;
+	padding-top: 45px;
+	margin: 0 auto;
+	padding-left: 45px;
+	}
+	.phone{	
+		font-family: OpenSans;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: .9;
+		letter-spacing: 1px;
+	}
+	.communication {
+		display: block;
+		float: none;
+		font-family: PTSans;
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 1.92;
+		letter-spacing: 0.6px;
+		color: #767676;
+		text-decoration-style: dashed;
+	} 
+	nav {
+		height: 100%;
+	}	
+	nav li {
+		border: none;
+	}
+	.top-menu li {
+		display: block;
+		/* padding: 0 20px; */
+		margin-top: 11px;
+	}
+	.text p {
+		width: 100%;
+		margin: 10px auto;
+	}
+	#menu {
+		width: 19%;
+		margin-left: 30px;
+	}
+	#logo img{
+		width: 100px;
+	}
+	form {
+		width: 70%;	
+		margin: 50px auto;
+		}
+	form li {
+		margin: 10px 10px;
+			}
+
+}
+@media screen and (max-width: 480px){
+	aside {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		height: 100%;
+	}
+	section {
+		margin: 0 auto;
+	}
+	text {
+		height: 100%;
+	}
+.text p {
+	width: 100%;
+	margin: 10px auto;
+}
+
+footer {
+	height: 100%;
+}
+#copyright {
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+}
+#menu {
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+}
+#logo {
+	float: none;
+	}
+
+}
+
+@media screen and (max-width: 320px){	}
+
+				
+
