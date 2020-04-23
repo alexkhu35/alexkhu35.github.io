@@ -1,0 +1,172 @@
+
+@media (max-width: 991px){
+	.btn{
+		width: 134px;
+		height: 41px;
+		font-size: 20px;
+		padding: 5px 20px;
+	}
+}
+@media (max-width: 920px){
+	.form-project {
+		margin-top: 8px;
+	}
+	}
+@media (max-width: 884px){
+	.skills_text h2 + p{
+		height: 123px;
+	}
+}
+@media (max-width: 767px){
+	.btn{
+		width: 110px;
+		height: 24px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.item {
+		width: 49%;
+	}	
+	.skills_text h2 + p{
+		height: 140px;
+	}
+	.skills_text_title{
+		height: 60px;
+	}
+	.project_item h2{
+		font-size: 24px;
+	}
+	.form-project button{
+		font-size: 15px;
+	}
+	.form-project h3{
+		font-size: 20px;
+	}
+	.footer_flex{
+		display: block;
+		text-align: center;
+		}
+	.footer_flex div{
+		width: 100%;
+	}
+	.footer_flex p{
+		margin: 0;
+	}
+	.footer_links li{
+		margin: 5px 11px 10px;
+	}
+}
+@media (max-width: 600px){
+	body {
+		font-size: 15px;
+	}
+	.skills{
+		display: block;
+	}	
+	.skills_item{
+		margin-top: 10px;
+		width: 100%;
+	}
+	.skills_text h2 {
+		height: 23px;
+	}
+	.skills_text h2 + p{
+		height: 50px;
+	}
+	.skills_text p{
+		margin: 5px;
+	}
+	.skills_text_title {
+    height: 32px;
+	}
+	.form-project h3{
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 480px){
+	.btn{
+		margin-right: 1px;
+		width: 75px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.form-hello{
+		position:absolute;
+		top: 17px;
+		right: -18px;
+		z-index:9999;
+		width:452%;
+		background-color: rgba(87, 129, 207, 0.5);
+		border-radius: 31px;
+		padding: 11px;
+		text-shadow: 0 0 5px rgb(18, 19, 24);
+	}
+	.header_title {
+		font-size: 22px;
+	}	
+	.header_phone{
+		font-size: 18px;
+	}
+	.about{
+		margin-top: 22px;
+		display: block;
+	}
+	.main_foto{
+		max-width: 100%;
+	}
+	.main_foto img{
+		width: 100%;
+	}
+	.main_text{
+		width: 100%;
+		padding: 20px 10px 0;
+	} 
+	.item {
+		width: 100%;
+	}	
+
+	.project_item{
+		width: 100%;
+		float: none;
+		background-color: rgba(245, 236, 236, 0.2);
+	}
+	.start-project h2, .start-project_text {
+		margin: 0;
+		padding: 0;
+	}
+	.project_item p{
+		margin: 0;
+		font-weight: 800;
+		}
+	.project_item h2{
+		padding-top: 11px;
+		font-weight: 800;
+		text-shadow: 2px 2px 5px  rgb(239, 240, 247);
+	} 
+		#form{
+		width: 100%;
+		display: none;
+		float: none;
+	}
+	.form-project{
+		margin: 5px;
+		padding: 5px;
+	}
+	.form-project input[type="text"] {
+		width: 90%;
+		margin: 2px;
+	}	
+	.form-project button{
+		width: 90%;
+		height: 30px;
+		margin: 2px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 432px){
+.footer_flex p{
+	font-size: 15px;
+ }
+}
